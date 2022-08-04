@@ -1,0 +1,140 @@
+
+.about-information {
+  background-color: $pam_color1;
+  color: $pam_color6;
+  padding: 80px 0;
+
+  &__description {
+    max-width: 780px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 1px;
+
+    &:nth-last-child(1) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.we-do {
+  .title {
+    margin: 0 0 47px;
+  }
+
+  &__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  &__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    &__img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 24px;
+    }
+
+    &__title {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 32px;
+      margin: 0 0 4px;
+      text-align: center;
+      color: #6D31D0;
+    }
+
+    &__desc {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      letter-spacing: 0.5px;
+      color: #434364;
+      margin: 10px 0;
+    }
+  }
+  &__description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #434364;
+    max-width: 580px;
+    width: 100%;
+    margin: 10px auto 60px;
+  }
+  &__home{
+    .we-do__item__img{
+      width: 150px;
+      height: 150px;
+    }
+    .we-do__item__desc{
+      margin: 0;
+    }
+    .we-do__list{
+      gap: 8px;
+    }
+  }
+}
+
+@media screen and (max-width: 1145px) {
+  .we-do {
+    &__list {
+      max-width: 580px;
+      width: 100%;
+      margin: 0 auto;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 50px 20px;
+    }
+  }
+}
+
+@media screen and (max-width: 920px) {
+  .about-information {
+    padding: 60px 0;
+
+    &__description {
+      letter-spacing: 1.2px;
+      br{
+        display: none;
+      }
+    }
+  }
+}
+@media screen and (max-width: 480px){
+  .about-information__description {
+    letter-spacing: 1.4px;
+  }
+}
+
+
+@media screen and (max-width: 480px){
+  .wrapper{
+    max-width: 412px;
+  }
+  .we-do {
+    .title{
+      max-width: 280px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    &__list{
+      margin: 55px 0;
+      gap: 30px 20px;
+    }
+  }
+}
