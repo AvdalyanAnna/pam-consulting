@@ -127,9 +127,12 @@
     right: 0;
     opacity: 0;
 
-    &:checked ~ .checkbox__marker::before {
-      opacity: 1;
-      visibility: visible;
+    &:checked ~ .checkbox__marker{
+      background-color: #fff;
+      &::before {
+        opacity: 1;
+        visibility: visible;
+      }
     }
   }
 
@@ -141,7 +144,7 @@
     transition: 0.3s;
     border: 1px solid #fff;
     flex-shrink: 0;
-    background-color: #fff;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
