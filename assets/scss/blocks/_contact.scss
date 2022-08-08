@@ -127,9 +127,9 @@
     right: 0;
     opacity: 0;
 
-    &:checked ~ .checkbox__marker {
-      background-color: #409FFF;
-      border: 1px solid #409FFF;
+    &:checked ~ .checkbox__marker::before {
+      opacity: 1;
+      visibility: visible;
     }
   }
 
@@ -154,6 +154,9 @@
       background-size: contain;
       width: 24px;
       height: 20px;
+      opacity: 0;
+      visibility: visible;
+      transition: 0.3s;
     }
   }
 
