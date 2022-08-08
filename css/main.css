@@ -1758,7 +1758,8 @@ body {
         align-items: center;
     letter-spacing: 0.5px;
     color: #6D31D0;
-    margin: 23px 0 60px; }
+    margin: 23px 0 60px;
+    font-weight: bold; }
     .migration-help__inner .list li::before {
       background-color: #6D31D0; }
 
