@@ -1076,7 +1076,7 @@ body {
     font-size: 16px;
     line-height: 140%;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #FFFFFF; }
     .header-nav__menu .header-btn {
       display: none; }
@@ -1449,7 +1449,7 @@ body {
       text-align: center;
       -ms-flex-pack: center;
           justify-content: center;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #434364;
       margin-bottom: 20px; }
     .contact-form__line {
@@ -1572,7 +1572,7 @@ body {
       text-align: center;
       -ms-flex-pack: center;
           justify-content: center;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #434364;
       margin-bottom: 20px; }
     .contact-form__line {
@@ -1676,7 +1676,7 @@ body {
     font-size: 28px;
     line-height: 32px;
     text-align: center;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #434364;
     max-width: 250px;
     width: 100%;
@@ -1819,7 +1819,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #FFDB80;
   text-shadow: 0 0 80px #023F76;
   background: rgba(109, 49, 208, 0.5);
@@ -1920,7 +1920,7 @@ body {
     font-weight: bold;
     font-size: 28px;
     line-height: 32px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #6D31D0;
     margin-bottom: 20px; }
   .map-left .description {
@@ -2013,7 +2013,7 @@ body {
       font-weight: bold;
       font-size: 40px;
       line-height: 29px;
-      text-transform: uppercase;
+      text-transform: capitalize;
       color: #434364;
       margin-bottom: 33px;
       margin-top: 27px;
@@ -2311,7 +2311,7 @@ body {
       font-weight: bold;
       font-size: 28px;
       line-height: 32px;
-      text-transform: uppercase;
+      text-transform: capitalize;
       margin-bottom: 34px; }
     .text-block__left .description {
       font-weight: 400;
