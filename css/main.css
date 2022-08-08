@@ -1496,9 +1496,11 @@ body {
     top: 0;
     right: 0;
     opacity: 0; }
-    .checkbox__input:checked ~ .checkbox__marker::before {
-      opacity: 1;
-      visibility: visible; }
+    .checkbox__input:checked ~ .checkbox__marker {
+      background-color: #fff; }
+      .checkbox__input:checked ~ .checkbox__marker::before {
+        opacity: 1;
+        visibility: visible; }
   .checkbox__marker {
     width: 30px;
     height: 30px;
@@ -1508,7 +1510,7 @@ body {
     border: 1px solid #fff;
     -ms-flex-negative: 0;
         flex-shrink: 0;
-    background-color: #fff;
+    background-color: transparent;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-align: center;
