@@ -33,7 +33,7 @@
 
     a {
       font-family: 'Montserrat';
-      font-weight: 600;
+      font-weight: bold;
       font-size: 20px;
       line-height: 32px;
       display: flex;
@@ -55,7 +55,7 @@
     }
 
     &__title {
-      font-weight: 600;
+      font-weight: bold;
       font-size: 28px;
       line-height: 32px;
       display: flex;
@@ -189,7 +189,7 @@
 @media screen and (max-width: 1145px) {
   .contact {
     &-form {
-      max-width: 600px;
+      max-width: boldpx;
       width: 100%;
 
       background: rgba(#FFDB80, 0.5);
@@ -204,7 +204,7 @@
       }
 
       &__title {
-        font-weight: 600;
+        font-weight: bold;
         font-size: 28px;
         line-height: 32px;
         display: flex;

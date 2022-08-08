@@ -60,7 +60,7 @@ img {
 
 .btn {
   font-family: 'Montserrat';
-  font-weight: 600;
+  font-weight: bold;
   font-size: 20px;
   line-height: 32px;
   display: flex;
@@ -87,17 +87,17 @@ img {
 }
 
 .title {
-  font-weight: 600;
+  font-weight: bold;
   font-size: 36px;
   line-height: 40px;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #434364;
 
   &-big {
-    font-weight: 600;
+    font-weight: bold;
     font-size: 40px;
     line-height: 29px;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #434364;
   }
 
@@ -129,6 +129,7 @@ img {
 
 .color-pam {
   color: $pam_color1 !important;
+  font-weight: bold;
 
   li:before {
     background-color: $pam_color1;
@@ -306,7 +307,6 @@ img {
   li {
     padding-left: 25px;
     position: relative;
-
     &::before {
       content: '';
       position: absolute;
@@ -339,7 +339,7 @@ img {
     color: #434364;
 
     .title {
-      font-weight: 600;
+      font-weight: bold;
       font-size: 28px;
       line-height: 32px;
       text-transform: uppercase;
@@ -440,7 +440,7 @@ img {
   &__title {
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 20px;
     line-height: 32px;
     color: #6D31D0;
@@ -586,7 +586,7 @@ img {
   &-title{
     font-family: 'Montserrat';
     font-style: normal;
-    font-weight: 600;
+    font-weight: bold;
     font-size: 20px;
     line-height: 32px;
     color: #6D31D0;
