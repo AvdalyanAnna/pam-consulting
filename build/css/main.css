@@ -2101,25 +2101,29 @@ body {
     height: 100px;
     position: absolute;
     bottom: 69px;
-    left: 40px; }
+    left: 40px;
+    cursor: pointer; }
   .img-map-2 {
     width: 182px;
     height: 100px;
     position: absolute;
     bottom: 148px;
-    left: 186px; }
+    left: 186px;
+    cursor: pointer; }
   .img-map-3 {
     width: 104px;
     height: 100px;
     position: absolute;
     bottom: 20px;
-    left: 151px; }
+    left: 151px;
+    cursor: pointer; }
   .img-map-4 {
     width: 106px;
     height: 77px;
     position: absolute;
     bottom: 71px;
-    left: 280px; }
+    left: 280px;
+    cursor: pointer; }
 
 @media screen and (max-width: 1250px) {
   .swiper-button-next {
