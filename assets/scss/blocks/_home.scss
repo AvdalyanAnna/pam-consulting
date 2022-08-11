@@ -143,6 +143,7 @@
 
 .map {
   padding: 80px 0;
+  min-height: 720px;
 
   &-inner {
     display: flex;
@@ -178,11 +179,12 @@
   &-right {
     max-width: 480px;
     width: 100%;
+  }
+  &-item{
     background: #FFFFFF;
     padding: 13px 11px;
     box-shadow: 12.8037px 15.3644px 13px rgba(0, 0, 0, 0.035);
     border-radius: 12px;
-
   }
 
   &-content {
@@ -352,6 +354,42 @@
   }
 }
 
+.img-map{
+  position: relative;
+  img{
+    object-fit: contain;
+    pointer-events: none;
+  }
+  &-1{
+  width: 75px;
+  height: 100px;
+  position: absolute;
+  bottom: 69px;
+  left: 40px;
+}
+  &-2{
+    width: 182px;
+    height: 100px;
+    position: absolute;
+    bottom: 148px;
+    left: 186px;
+  }
+  &-3{
+    width: 104px;
+    height: 100px;
+    position: absolute;
+    bottom: 20px;
+    left: 151px;
+  }
+  &-4{
+    width: 106px;
+    height: 77px;
+    position: absolute;
+    bottom: 71px;
+    left: 280px;
+  }
+}
+
 @media screen and (max-width: 1250px) {
   .swiper-button-next{
     right: -70px;
@@ -360,14 +398,12 @@
     left: -70px;
   }
 }
+
 @media screen and (max-width: 1145px) {
   .swiper-button-prev,
   .swiper-button-next {
     display: none !important;
   }
-}
-
-@media screen and (max-width: 1145px) {
   .first {
       .wrapper {
       max-width: 812px;
@@ -414,7 +450,6 @@
       max-width: 468px;
     }
   }
-
   .map {
     &-inner {
       flex-direction: column;
@@ -446,7 +481,23 @@
     }
   }
 
-
+  .img-map{
+    position: relative;
+    &-1{
+      width: 130px;
+    }
+    &-2{
+      width: 220px;
+    }
+    &-3{
+      width: 153px;
+      left: 193px;
+    }
+    &-4{
+      width: 106px;
+      left: 350px;
+    }
+  }
 }
 
 @media screen and (max-width: 920px) {
@@ -484,17 +535,39 @@
       margin: 40px auto;
     }
   }
-  .map{
-    .img-map{
+  .map .img-map{
       height: 290px;
       img{
         height: 100%;
       }
     }
+  .img-map{
+    position: relative;
+    &-1{
+      width: 68px;
+      height: 83px;
+      left: 66px;
+      bottom: 51px;
+    }
+    &-2{
+      width: 158px;
+      left: 130px;
+      bottom: 103px;
+    }
+    &-3{
+      width: 109px;
+      left: 137px;
+      height: 80px;
+    }
+    &-4{
+      width: 106px;
+      left: 247px;
+      bottom: 50px;
+      height: 50px;
+    }
   }
 }
 @media screen and (max-width: 480px) {
-
   .first{
     .wrapper{
       max-width: 430px;
@@ -534,6 +607,38 @@
       .title {
         margin-bottom: 27px;
       }
+    }
+  }
+
+  .img-map{
+    position: relative;
+    img{
+      max-width: 273px;
+      width: 100%;
+    }
+    &-1{
+      width: 61px;
+      height: 67px;
+      left: -12px;
+      bottom: 77px;
+    }
+    &-2{
+      width: 100px;
+      height: 50px;
+      left: 46px;
+      bottom: 118px;
+    }
+    &-3{
+      width: 53px;
+      left: 50px;
+      height: 51px;
+      bottom: 66px;
+    }
+    &-4{
+      width: 56px;
+      left: 116px;
+      bottom: 70px;
+      height: 50px;
     }
   }
 }
