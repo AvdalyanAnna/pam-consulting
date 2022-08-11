@@ -1696,7 +1696,7 @@ body {
     letter-spacing: 0.5px;
     color: #434364; }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1145px) {
   .services-list {
     display: -ms-flexbox;
     display: flex;
