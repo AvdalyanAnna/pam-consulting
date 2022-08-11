@@ -488,34 +488,7 @@ img {
     position: relative;
   }
 }
-.swiper-button-next{
-  background: rgba(#FFFFFF,0.7);
-  border-radius: 4px;
-  width: 48px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  right: -76px;
-  transform: translateY(-50%);
-  &::after{
-    content: unset;
-  }
-}
-.swiper-button-prev{
-  background: rgba(#FFFFFF,0.7);
-  border-radius: 4px;
-  width: 48px;
-  height: 80px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  left: -84px;
-  transform: translateY(-50%);
-  &::after{
-    content: unset;
-  }
-}
+
 .partners {
   &__list {
     display: flex;

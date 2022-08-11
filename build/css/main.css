@@ -1801,6 +1801,9 @@ body {
   .migration-we-do__list .we-do__item {
     max-width: 250px; } }
 
+.first .wrapper {
+  max-width: 1025px; }
+
 .first__item {
   position: relative;
   height: auto; }
@@ -1844,6 +1847,8 @@ body {
   .first__tags {
     display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     gap: 22px;
     margin-top: 142px; }
 
@@ -1872,7 +1877,7 @@ body {
   bottom: 20px; }
 
 .cities {
-  margin: 60px 26px; }
+  margin: 60px 0; }
   .cities-title {
     font-family: 'Montserrat';
     font-weight: bold;
@@ -2049,12 +2054,54 @@ body {
         right: 0;
         object-position: right; }
 
-@media screen and (max-width: 1380px) {
+.swiper-button-next {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  width: 48px;
+  height: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  right: -104px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+  .swiper-button-next::after {
+    content: unset; }
+
+.swiper-button-prev {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 4px;
+  width: 48px;
+  height: 80px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  left: -94px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%); }
+  .swiper-button-prev::after {
+    content: unset; }
+
+@media screen and (max-width: 1250px) {
+  .swiper-button-next {
+    right: -70px; }
+  .swiper-button-prev {
+    left: -70px; } }
+
+@media screen and (max-width: 1170px) {
   .swiper-button-prev,
   .swiper-button-next {
     display: none !important; } }
 
 @media screen and (max-width: 1145px) {
+  .first .wrapper {
+    max-width: 812px; }
   .first .description {
     max-width: 564px; }
   .cities {
@@ -2104,6 +2151,8 @@ body {
     margin-top: 50px; } }
 
 @media screen and (max-width: 920px) {
+  .first .wrapper {
+    max-width: 610px; }
   .first .description {
     max-width: 450px; }
   .cities__list {
@@ -2420,40 +2469,6 @@ body {
   top: 52%; }
   .swiper-arrows__inner {
     position: relative; }
-
-.swiper-button-next {
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 4px;
-  width: 48px;
-  height: 80px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  right: -76px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
-  .swiper-button-next::after {
-    content: unset; }
-
-.swiper-button-prev {
-  background: rgba(255, 255, 255, 0.7);
-  border-radius: 4px;
-  width: 48px;
-  height: 80px;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  -ms-flex-pack: center;
-      justify-content: center;
-  left: -84px;
-  -webkit-transform: translateY(-50%);
-          transform: translateY(-50%); }
-  .swiper-button-prev::after {
-    content: unset; }
 
 .partners__list {
   display: -ms-flexbox;
