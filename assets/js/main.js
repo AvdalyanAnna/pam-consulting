@@ -9,7 +9,7 @@ let swiper = new Swiper(".questions__list", {
 		600: {
 			slidesPerView: 2
 		},
-		1200: {
+		1146: {
 			slidesPerView: 3
 		},
 	}
