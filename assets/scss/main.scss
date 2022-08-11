@@ -129,7 +129,7 @@ img {
 
 .color-pam {
   color: $pam_color1 !important;
-  font-weight: bold;
+  font-weight: bold !important;
 
   li:before {
     background-color: $pam_color1;
