@@ -1025,6 +1025,9 @@ img {
 .text-white {
   color: #fff !important; }
 
+.text-dark {
+  color: #434364 !important; }
+
 .font-bold {
   font-weight: bold !important; }
 
@@ -2125,6 +2128,9 @@ body {
     left: 280px;
     cursor: pointer; }
 
+.slider-mobile {
+  display: none; }
+
 @media screen and (max-width: 1250px) {
   .swiper-button-next {
     right: -70px; }
@@ -2198,6 +2204,10 @@ body {
       left: 350px; } }
 
 @media screen and (max-width: 920px) {
+  .slider-mobile {
+    display: block; }
+  .slider-desk {
+    display: none; }
   .first .wrapper {
     max-width: 610px; }
   .first .description {

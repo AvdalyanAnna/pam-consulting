@@ -406,7 +406,9 @@
     cursor: pointer;
   }
 }
-
+.slider-mobile{
+  display: none;
+}
 @media screen and (max-width: 1250px) {
   .swiper-button-next {
     right: -70px;
@@ -535,6 +537,12 @@
 }
 
 @media screen and (max-width: 920px) {
+  .slider-mobile{
+    display: block;
+  }
+  .slider-desk{
+    display: none;
+  }
   .first {
     .wrapper {
       max-width: 610px;
