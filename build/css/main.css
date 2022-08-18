@@ -1031,6 +1031,9 @@ img {
 .font-bold {
   font-weight: bold !important; }
 
+.font-500 {
+  font-weight: 500 !important; }
+
 .color-pam {
   color: #6D31D0 !important;
   font-weight: bold !important; }
@@ -2259,6 +2262,10 @@ body {
 @media screen and (max-width: 480px) {
   .first .wrapper {
     max-width: 430px; }
+  .first__item {
+    height: calc(100vh - 106px); }
+    .first__item .cities {
+      display: none; }
   .first__tags {
     margin: 40px 0 33px;
     -ms-flex-wrap: wrap;

@@ -626,6 +626,12 @@
     .wrapper {
       max-width: 430px;
     }
+    &__item{
+      height: calc(100vh - 106px);
+      .cities{
+        display: none;
+      }
+    }
 
     &__tags {
       margin: 40px 0 33px;
