@@ -627,10 +627,7 @@
       max-width: 430px;
     }
     &__item{
-      height: calc(100vh - 106px);
-      .cities{
-        display: none;
-      }
+      min-height: calc(100vh - 106px);
     }
 
     &__tags {

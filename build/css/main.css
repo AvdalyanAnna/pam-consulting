@@ -2263,9 +2263,7 @@ body {
   .first .wrapper {
     max-width: 430px; }
   .first__item {
-    height: calc(100vh - 106px); }
-    .first__item .cities {
-      display: none; }
+    min-height: calc(100vh - 106px); }
   .first__tags {
     margin: 40px 0 33px;
     -ms-flex-wrap: wrap;
