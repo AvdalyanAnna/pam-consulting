@@ -15,6 +15,7 @@ let swiper = new Swiper(".questions__list", {
     }
 });
 let swiper1 = new Swiper(".first__list", {
+    autoHeight: true,
     navigation: {
         nextEl: ".swiper-button-next",
         prevEl: ".swiper-button-prev",
