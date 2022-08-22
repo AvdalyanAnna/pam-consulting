@@ -52,7 +52,7 @@
                         <li class="header-nav__menu-item"><a class="header-nav__menu-link" href="/contact.html">Contuct us</a></li>
                     </ul>
                 <div class="header-btn">
-                    <button class="btn btn-min">Get in touch</button>
+                    <a href="/contact.html" class="btn btn-min">Get in touch</a>
                 </div>
                 <button class="menu">
                     <svg viewBox="0 0 64 48">
@@ -80,7 +80,7 @@
 
     <li class="header-nav__menu-item">
         <div class="header-btn">
-            <button class="btn btn-min">Get in touch</button>
+            <a class="btn btn-min" href="/contact.html">Get in touch</a>
         </div>
     </li>
 </ul>
@@ -330,18 +330,30 @@
                             <input type="checkbox" class="checkbox__input">
                             <div class="checkbox__marker"></div>
                             <div class="checkbox__text">
-                                By clicking “Submit button” you accept our <a href="/privacy_policy.html">Terms & Conditions</a>
+                                By clicking “Submit button” you accept our <a href="/disclaimer.html">Terms & Conditions</a>
                                 and have read our <a href="/privacy_policy.html">Privacy Policy</a> and <a href="/disclaimer.html">Disclaimer</a>
                             </div></label>
                     </div>
-                    <button class="btn contact-form__btn">Submit</button>
+                    <button class="btn open__modal contact-form__btn" data-open="#changePassword">Submit</button>
                 </div>
 
 
             </form>
         </div>
     </div>
+
 </section>
+<div class="modal" id="changePassword" style="display: block;">
+    <div class="modal-inner">
+        <div class="modal__container">
+            <div class="modal__header">
+                <div class="modal__title">Thank You! <br>
+                    Your request is being reviewed</div>
+                <div class="modal__desc">One of our team members will get in touch with you soon</div>
+            </div>
+        </div>
+    </div>
+</div>
     <section class="questions">
     <div class="wrapper">
         <div class="questions__inner">
