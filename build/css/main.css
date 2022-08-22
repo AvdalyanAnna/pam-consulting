@@ -2355,6 +2355,23 @@ body {
   .first__item-1 {
     height: auto !important; } }
 
+@media screen and (max-width: 380px) {
+  .first .title {
+    font-size: 28px; }
+  .first .description {
+    font-size: 14px; } }
+
+@media screen and (max-width: 380px) {
+  .first__tag {
+    font-size: 12px; }
+    .first__tag:before {
+      content: unset; }
+    .first__tags {
+      gap: 10px;
+      margin: 20px 0; }
+  .first .title {
+    font-size: 24px; } }
+
 .section-yellow {
   background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%); }
 

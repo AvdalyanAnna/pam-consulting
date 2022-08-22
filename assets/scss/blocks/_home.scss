@@ -765,3 +765,27 @@
     height: auto !important;
   }
 }
+@media screen and (max-width: 380px){
+  .first .title{
+    font-size: 28px;
+  }
+  .first .description{
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .first__tag{
+    font-size: 12px;
+    &:before{
+      content: unset;
+    }
+    &s{
+      gap: 10px;
+      margin: 20px 0;
+    }
+  }
+  .first .title{
+    font-size: 24px;
+  }
+}
