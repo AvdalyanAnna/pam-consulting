@@ -302,3 +302,80 @@
     }
   }
 }
+
+
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  background: rgba(34, 34, 34, 0.6);
+  overflow: auto;
+  box-sizing: border-box;
+
+  &-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  &__container {
+    margin: auto auto;
+    max-width: 680px;
+    width: 100%;
+    background: rgba(255, 235, 128,1);
+    padding: 60px 96px;
+    border-radius: 60px;
+
+    .close {
+      background: url("../img/svg/close.svg") no-repeat center center;
+      width: 24px;
+      height: 24px;
+      z-index: 1;
+      cursor: pointer;
+    }
+  }
+
+  &__header {
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #434364;
+    margin: 0 auto 40px;
+  }
+  &__desc{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .modal__container {
+    padding: 36px 16px;
+    max-width: 95%;
+}
+}
+@media screen and (max-width: 470px){
+  .modal__container {
+    padding: 36px 16px;
+    max-width: 95%;
+}
+  .modal__title{
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0 auto 20px;
+  }
+}

@@ -416,7 +416,7 @@
   display: none;
 }
 .first__item{
-  min-height: calc(100vh - 115px) !important;
+  height: calc(100vh - 115px) !important;
 }
 @media screen and (max-width: 1250px) {
   .swiper-button-next {
@@ -788,4 +788,7 @@
   .first .title{
     font-size: 24px;
   }
+}
+a.btn{
+  display: inline-flex;
 }

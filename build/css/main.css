@@ -1643,6 +1643,69 @@ body {
         grid-template-columns: 1fr;
         gap: 14px; } }
 
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 5;
+  background: rgba(34, 34, 34, 0.6);
+  overflow: auto;
+  box-sizing: border-box; }
+  .modal-inner {
+    width: 100%;
+    height: 100%;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center; }
+  .modal__container {
+    margin: auto auto;
+    max-width: 680px;
+    width: 100%;
+    background: #ffeb80;
+    padding: 60px 96px;
+    border-radius: 60px; }
+    .modal__container .close {
+      background: url("../img/svg/close.svg") no-repeat center center;
+      width: 24px;
+      height: 24px;
+      z-index: 1;
+      cursor: pointer; }
+  .modal__header {
+    text-align: center; }
+  .modal__title {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    text-transform: capitalize;
+    color: #434364;
+    margin: 0 auto 40px; }
+  .modal__desc {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    color: #434364; }
+
+@media screen and (max-width: 767px) {
+  .modal__container {
+    padding: 36px 16px;
+    max-width: 95%; } }
+
+@media screen and (max-width: 470px) {
+  .modal__container {
+    padding: 36px 16px;
+    max-width: 95%; }
+  .modal__title {
+    font-size: 20px;
+    line-height: 120%;
+    margin: 0 auto 20px; } }
+
 .services {
   background: linear-gradient(180deg, #828CDE -21.43%, #6D31D0 201.93%);
   padding: 80px 0; }
@@ -2140,7 +2203,7 @@ body {
   display: none; }
 
 .first__item {
-  min-height: calc(100vh - 115px) !important; }
+  height: calc(100vh - 115px) !important; }
 
 @media screen and (max-width: 1250px) {
   .swiper-button-next {
@@ -2371,6 +2434,10 @@ body {
       margin: 20px 0; }
   .first .title {
     font-size: 24px; } }
+
+a.btn {
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
 
 .section-yellow {
   background: linear-gradient(180deg, #FEFC9E -47.89%, #FDBFA3 126.42%); }
